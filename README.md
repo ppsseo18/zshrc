@@ -32,7 +32,7 @@ $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh 
 
 ```sh
 $ cd ~
-$ git clone --recursive https://github.com/posquit0/zshrc ~/.zsh
+$ git clone --recursive https://github.com/KyeongminNoh/zshrc ~/.zsh
 $ ln -s .zsh/zshrc .zshrc
 $ ln -s .zsh/zshenv .zshenv
 ```
