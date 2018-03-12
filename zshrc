@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.zsh/oh-my-zsh
@@ -91,4 +91,7 @@ fi
 alias nv="nvim"
 alias mvi="mvim -v"
 alias tmux="TERM=screen-256color-bce tmux"
+alias mysql="/usr/local/mysql/bin/mysql"
 
+export NVM_DIR="/Users/kyeongmin/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
