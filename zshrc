@@ -57,7 +57,6 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
   && source $ZSH_CUSTOM/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -71,7 +70,7 @@ source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
     export EDITOR='vim'
 else
-   export EDITOR='mvim'
+   export EDITOR='vim'
 fi
 
 # Compilation flags
@@ -88,10 +87,13 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias nv="nvim"
 alias mvi="mvim -v"
 alias tmux="TERM=screen-256color-bce tmux"
 alias mysql="/usr/local/mysql/bin/mysql"
 
-export NVM_DIR="/Users/kyeongmin/.nvm"
+export NVM_DIR="/Users/kyongmin/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
